@@ -1,13 +1,151 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ background-image: url(./assets/back.jpg);
+  padding: 0;
+  font-family: 'Tajawal' , sans-serif;
+  background-color:#ffffff !important;
+}
+html{
+  scroll-behavior: smooth;
+}
+:root{
+  --main-color: #9b6df2;
+  --orange-color: orange;
+
+}
+section ,footer , header{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 25px 0px;
+  margin-top: 50 px;
+}
+a{
+  text-decoration: none !important;
+}
+span{
+  display: block;
+}
+ul{
+  margin: 0;
+  padding: 0;
+
+}
+li{
+  list-style-type: none;
+}
+button{
+  text-align: center;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 4px;
+}
+p{
+  line-height: 20px;
+}
+input{
+  box-sizing: border-box;
+  border: 1px sold #fff;
+  text-align: left;
+  padding: 5px 15px;
+  color: #333;
+  font-size: 16px;
+font-family: 'tajawal';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+footer img.footerlogo{
+  width: auto;
+  height: 90px;
+}
+footer p{
+  
+  font-size: 17px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ color: #62547c;
+}
+.W{
+  position: relative;
+  left: 490px;
+}
+
+footer .footer-contact{
+  display: flex;
+  color: #9b6df2;
+
+}
+footer .footer-contact .footer-icon{
+ height: 40px;
+ margin-right: 10px;
+ background-color:orange;
+  width: 40px;
+  line-height: 40px;
+  border: 1px solid orange;
+  box-sizing: border-box;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+footer .footer-contact .footer-icon svg{
+  color:white;
+ text-align: center;
+ padding-left: 10px;
+}
+
+footer .footer-contact h6{
+color:orange;
+font-size: 20px;
+}
+
+footer h2{
+  color:orange;
+  margin :15px 0px;
+  }
+  footer ul{
+margin: top 20px;
+
+
+  }
+  footer li{
+    
+    margin-top: 7px;
+  }
+  footer ul li{
+    margin-top: 10px;
+  }
+footer ul li a{
+  color: #62547c;
+  font-size: 16px;
+
+}
+footer form input{
+  border: 1px solid #ccc;
+  margin: 10px 0px;
+ width: 100%;
+}
+.X{
+  position: relative;
+  left: -7px;
+  width: 14rem !important;
+}
+
+footer form {
+  background-color: plum !important ;
+width: 100%;
+position: relative;
+left: 20px;
+}
+footer ul.social li{
+  display: inline-block;
+  margin-right: 20px;
+}
+footer .footer-bottom{
+  text-align: center ;
+  margin-top: 25px;
+  padding: 10px 0px;
+  border-top: 1px solid #ccc;
+}
+footer .footer-bottom span{
+  display: block;
+  margin-top: 10 px;
 }

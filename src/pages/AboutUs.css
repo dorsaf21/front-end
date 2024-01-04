@@ -1,0 +1,127 @@
+
+header{
+    margin-top: 0 px;
+    background-image: url(../assets/back.jpg);
+    background-color: rgb(255, 255, 255);
+    
+    }
+	
+header .aa{
+	background-color: rgb(174, 80, 241);
+	text-align: center;
+	display: inline-block ;
+	position: relative;
+	left: 400px;
+	border-radius: 19px;
+	font-family:Cursive;
+    font-size: 80px;
+    margin: 10px 0px;
+   
+    color :white !important;
+}
+.ab {
+	font-size: 90;
+	color: rgb(242, 108, 229) !important;
+	font-size:  30px !important;
+	text-decoration: underline wavy;
+	font-weight: 900 !important;
+	text-align: right;
+	position: relative;
+	top: 80px;
+	right: 2px;
+	
+}
+.first-paragraph{
+	color: rgb(11, 11, 140);
+	font-size: 150%;
+	font-weight: 600;
+	line-height: 1cm ;
+	position: relative;
+	text-align: right;
+	top: 140px;
+	right: 10px;
+	
+}
+  .first-paragraph, .aa,.ab{
+	animation-duration: 2s ;
+	animation-name: slidein ;
+  }
+  
+  @keyframes slidein {
+	from {
+	  margin-left: 100%;
+	  width: 300%;
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+  }
+
+  .item{
+    background: #e4d7f1;
+    text-align: center;
+    margin: 20px 0;
+    padding: 50px 20px 40px 20px;
+    border-radius: 8px 8px;
+    -webkit-transition:all 0.25s ease-in-out ;
+    -moz-transition:all 0.25s ease-in-out;
+    -ms-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out ;
+    transition: all 0.25s ease-in-out ;
+  }
+
+  .item:hover{
+    background-color:#3956de ;
+    color: white;
+}
+.item h3{
+    margin: 20px 0 1px o !important;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: all 0.25s ease-in-out ;
+    -moz-transition:all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out ;
+
+}
+.section-subitle{
+    white-space: pre-line;
+}
+.item:hover h3{
+    color: #ddd;
+}
+.info{
+    display: block;
+    margin-bottom:0 ;
+
+}
+.info p{
+    color: #706d6d;
+    font-style: italic;
+}
+.info::after {
+    background: #008aff;
+    background:-webkit-linear-gradient(
+        135deg, #6B02FF, #985BEF 100%
+    ) ;
+    background:-o-linear-gradient(
+        135deg, #6B02FF, #985BEF 100%
+    );
+    background:-moz-linear-gradient(
+        135deg, #6B02FF, #985BEF 100%
+    );
+    background: linear-gradient(
+        135deg, #6B02FF, #985BEF 100%
+    );
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    width: 50px;
+    height: 3px;
+    margin-top: -20px;
+
+}
+
